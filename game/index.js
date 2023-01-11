@@ -616,7 +616,7 @@ function startgameclickbutton() {
     document.getElementById("game-difficulty-label").innerText = "Game Status";
     document.getElementById("game-difficulty").innerHTML = "Unsolved";
     if(difficulty==0){
-        coins=100;
+        coins=50;
         coin_update();
     } 
     else if(difficulty==1){
